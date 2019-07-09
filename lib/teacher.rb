@@ -4,8 +4,10 @@ class Teacher < User
 
   def teach
     KNOWLEDGE.sample
-    # KNOWLEDGE.shuffle.first
-    # rand(KNOWLEDGE[0..-1])
+    # KNOWLEDGE.shuffle.first -OK
+
+    # rand(KNOWLEDGE[0..-1]) -NOT OK?
+
     # teach = []
     # teach << KNOWLEDGE[rand(KNOWLEDGE[0..-1])]
     # teach
