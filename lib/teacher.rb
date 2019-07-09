@@ -4,7 +4,7 @@ class Teacher < User
 
   def teach
     teach = []
-    teach << KNOWLEDGE[rand(KNOWLEDGE.length)]
+    teach << KNOWLEDGE[rand(KNOWLEDGE[0..-1])]
     teach
   end
 end
