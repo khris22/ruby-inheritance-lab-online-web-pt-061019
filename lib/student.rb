@@ -7,9 +7,9 @@ class Student < User
     @knowledge = []
   end
 
-  def learn
-    knowledge = []
-  end
+  # def learn
+  #   knowledge = []
+  # end
 
   # def knowledge
   #   knowledge
