@@ -1,6 +1,8 @@
+require 'pry'
+
 class Student < User
   def initialize
-    @name = name
+    # @name = name
     @learn = learn
     @knowledge = knowledge
   end
